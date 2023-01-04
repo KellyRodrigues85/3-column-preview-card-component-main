@@ -2,40 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-section{
-    min-width: 375px;
-    max-width: 1440px;
-    margin: auto;
-    display: flex;
-    padding: 40px;
-
-}
-
-
-col#csedans{
-    background-color: hsl(31, 77%, 52%)
-
-}
-
-col#csuvs {
-    background-color: hsl(184, 100%, 22%);
-
-}
-
-col#cluxury {
-    background-color: hsl(179, 100%, 13%);
-
-}
-
 body{
-font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+   
 
 }
 
-th{
-    padding: 0px;
-    margin: 0px;
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 2rem;
+
+}
+
+.box1{
+    background: hsl(31, 77%, 52%);
+}
+.box2{
+    background: hsl(184, 100%, 22%);
+}
+
+.box3{
+    background: hsl(179, 100%, 13%);
+}
+
+.box{
+    padding: 40px;
 }

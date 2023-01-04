@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 body{
@@ -42,4 +39,7 @@ body{
 
 .box{
     padding: 40px;
+}
+.box h2{
+    font-family: 'Big Shoulders Display', cursive;
 }

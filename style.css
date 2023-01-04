@@ -42,4 +42,5 @@ body{
 }
 .box h2{
     font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
 }

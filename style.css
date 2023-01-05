@@ -56,4 +56,6 @@ body{
     background-color: hsl(0, 0%, 95%);
     padding: 13px 27px;
     border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
 }

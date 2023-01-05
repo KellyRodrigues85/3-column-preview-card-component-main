@@ -59,6 +59,7 @@ body{
     margin-top: 60px;
     display: inline-block;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
+    transition: all .4s ease-in-out;
 
 }
 
@@ -74,4 +75,8 @@ body{
 .box3 a{
     color: hsl(179, 100%, 13%);
     
+}
+.box a:hover{
+    color: hsl(0, 0%, 95%);
+    background: transparent;
 }

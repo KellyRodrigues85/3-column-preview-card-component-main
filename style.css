@@ -51,3 +51,9 @@ body{
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.6;
 }
+.box a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+}
